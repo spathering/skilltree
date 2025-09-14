@@ -1,0 +1,20 @@
+{
+  "id": "k.circuit",
+  "kind": "concept",
+  "title": "电路欧姆定律",
+  "summary": "U = I * R",
+  "edges": [
+    {
+      "kind": "related_skill",
+      "to": "s.lab"
+    },
+    {
+      "kind": "maps_to_role",
+      "to": "role.eleceng"
+    },
+    {
+      "kind": "prereq",
+      "to": "k.motor"
+    }
+  ]
+}

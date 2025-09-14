@@ -1,0 +1,31 @@
+{
+  "nodes": [
+	{
+	  "id": "d.mech",
+	  "kind": "discipline",
+	  "title": "机械工程"
+	},
+	{
+	  "id": "d.elec",
+	  "kind": "discipline",
+	  "title": "电气工程"
+	}
+  ],
+  "edges": [
+	{
+	  "kind": "contains",
+	  "from": "d.mech",
+	  "to": "dir.process"
+	},
+	{
+	  "kind": "contains",
+	  "from": "d.elec",
+	  "to": "k.circuit"
+	},
+	{
+	  "kind": "contains",
+	  "from": "d.elec",
+	  "to": "k.motor"
+	}
+  ]
+}
