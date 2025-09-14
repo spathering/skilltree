@@ -1,0 +1,15 @@
+{
+  "id": "dir.process",
+  "kind": "direction",
+  "title": "过程装备方向",
+  "edges": [
+	{
+	  "kind": "contains",
+	  "to": "k.thermo"
+	},
+	{
+	  "kind": "contains",
+	  "to": "k.pump"
+	}
+  ]
+}
